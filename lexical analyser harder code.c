@@ -10,11 +10,11 @@ char keywords[32][10] = {"auto","break","case","char","const","continue","defaul
 "unsigned","void","volatile","while"};
 int i, flag = 0;
 for(i = 0; i < 32; ++i){
-if(strcmp(keywords[i], buffer) == 0){
-flag = 1;
-break;
-}
-}
+    if(strcmp(keywords[i], buffer) == 0){
+        flag = 1;
+        break;
+    }
+    }
 return flag;
 }
 int main(){
