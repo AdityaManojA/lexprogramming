@@ -20,5 +20,5 @@ int main (){
 }
 int yywrap() 
 {
-    return 1;  // Return 1 to indicate that there's no more input.
+    return 1;  
 }
